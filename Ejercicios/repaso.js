@@ -7,7 +7,22 @@ function amoungUs(tripulacion, impostor){
     //     impostor = ["azul"]
     //     inocentes = ["verde"]
     //Tu codigo:
+//     codigo con metodo .filter
+
+//    var inocentes = tripulacion.filter(function(nuevoValor){
+//        if(nuevoValor!==impostor){ return nuevoValor}
+//    })
+//    return inocentes;
+// }
+
+//     codigo con for()
+var nuevoValor=[];
+for(var i=0; i<tripulacion.length; i++){
+    if(tripulacion[i] !== impostor){
+        nuevoValor.push(inocentes);
+    }
     
+}return "la tripulacion tiene un impostor!";
 }
 
 function grupalOrIndividual(deportes, modoDeJuego){
