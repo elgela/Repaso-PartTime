@@ -16,13 +16,13 @@ function amoungUs(tripulacion, impostor){
 // }
 
 //     codigo con for()
-var nuevoValor=[];
-for(var i=0; i<tripulacion.length; i++){
-    if(tripulacion[i] !== impostor){
-        nuevoValor.push(inocentes);
+    var newArr = [];
+    for(let i = 0; i < tripulacion.length; i++){
+        if(tripulacion[i] !== impostor){
+            newArr.push(tripulacion[i]);
+        }
     }
-    
-}return "la tripulacion tiene un impostor!";
+    return newArr;
 }
 
 function grupalOrIndividual(deportes, modoDeJuego){
