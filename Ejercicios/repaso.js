@@ -16,13 +16,13 @@ function amoungUs(tripulacion, impostor){
 // }
 
 //     codigo con for()
-    var newArr = [];
+    var inocentes = [];
     for(let i = 0; i < tripulacion.length; i++){
         if(tripulacion[i] !== impostor){
-            newArr.push(tripulacion[i]);
+            inocentes.push(tripulacion[i]);
         }
     }
-    return newArr;
+    return inocentes;
 }
 
 function grupalOrIndividual(deportes, modoDeJuego){
@@ -38,7 +38,9 @@ function grupalOrIndividual(deportes, modoDeJuego){
     //     respuesta si se pasa "grupal" por parametro: ["football"]
     //     respuesta si se pasa "individual" por parametro : ["ajedrez"]
     // Tu código:
- 
+  
+    
+
 }
 
 function numSeguido(numeros){
